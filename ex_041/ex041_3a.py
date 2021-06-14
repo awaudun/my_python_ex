@@ -1,8 +1,8 @@
-name="Audun"
+name="auDun"
 surname="Sh"
-course="Python for dummies"
+course="PythoN for duMMies"
 num_candidates="11"
 
-print("My name is ", name, ", with last name ", surname,
-".\nIm participating in the course ", course, ".\n",
-"There are ", num_candidates, " candidates taking the ", course, " course.", sep = "")
+print(f"My name is {name.capitalize()}, with last name {surname}.\n\
+Im participating in the course {course.lower()}.\n\
+There are {num_candidates} candidates taking the {course} course.")

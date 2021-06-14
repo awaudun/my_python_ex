@@ -1,23 +1,16 @@
 
 import time
-import sys
-sys.stdout.flush()
 
-print("|    |", end = "")
+print("  |    |", end = "\r")
 time.sleep(1)
-
-print("|>   |", end = "", flush=True)
+print("  |>   |", end = "\r")
 time.sleep(1)
-
-print("|=>  |", flush = True, end = "")
+print("  |=>  |", end = "\r")
 time.sleep(1)
-flush = True
-print("|==> |")
+print("  |==> |", end = "\r")
 time.sleep(1)
-flush = True
-print("|===>|")
+print("  |===>|", end = "\r")
 time.sleep(1)
-flush = True
-print("|====|")
+print("  |====|")
 time.sleep(1)
 print("Done!")
