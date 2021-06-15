@@ -72,4 +72,3 @@ list_of_lists[1][2] = 4
 list_of_lists[2][1][1] = 7
 print(list_of_lists)
 
-22525682004
