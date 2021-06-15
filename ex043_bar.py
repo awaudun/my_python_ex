@@ -11,3 +11,4 @@ if num_equals == bar_length:
 else:
     print(f"|{equals}>{spaces}|")
 
+  
