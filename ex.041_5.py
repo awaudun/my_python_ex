@@ -5,5 +5,3 @@ print(help(my_string.count()))
 
 print(my_string.upper())
 
-
-print(count(my_string))
